@@ -1,0 +1,16 @@
+# Pylint configuration for this project
+[MASTER]
+# Ignore virtual environment folders
+ignore=venv
+
+[MESSAGES CONTROL]
+# Disable only the missing module docstring rule (C0114)
+disable=C0114
+
+[FORMAT]
+# Recommended max line length
+max-line-length=100
+
+[REPORTS]
+# Disable full report
+reports=no
